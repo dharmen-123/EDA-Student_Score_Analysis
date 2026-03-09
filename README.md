@@ -4,19 +4,19 @@ This project performs Exploratory Data Analysis (EDA) on a dataset of student pe
 The analysis uses Python (Pandas, NumPy, Matplotlib, Seaborn) to clean, explore, and visualize the dataset.
 
 🛠️ Steps in the Project
-- Import Libraries
-- NumPy, Pandas, Matplotlib, Seaborn
-- Load Dataset
-- student_scores.csv containing 30,641 student records
-- Columns include: Gender, EthnicGroup, ParentEduc, LunchType, TestPrep, ParentMaritalStatus, PracticeSport, IsFirstChild, NrSiblings, TransportMeans, WklyStudyHours, and scores in Math, Reading, Writing
-- Data Cleaning
-- Dropped unnecessary Unnamed: 0 column
-- Checked for missing values across categorical and numerical features
-- Exploratory Analysis & Visualizations
-- Gender Distribution: Countplot showing more female students than male
-- Parent Education vs Scores: Heatmap showing higher parental education correlates with better student scores
-- Outlier Detection: Boxplots for Math, Reading, and Writing scores
-- Ethnic Group Distribution: Pie chart and countplot showing percentage breakdown across groups
+* Import Libraries    
+    - NumPy, Pandas, Matplotlib, Seaborn    
+* Load Dataset    
+    - student_scores.csv containing 30,641 student records    
+    - Columns include: Gender, EthnicGroup, ParentEduc, LunchType, TestPrep, ParentMaritalStatus, PracticeSport, IsFirstChild, NrSiblings, TransportMeans,             - WklyStudyHours, and scores in Math, Reading, Writing    
+* Data Cleaning    
+    - Dropped unnecessary Unnamed: 0 column    
+    - Checked for missing values across categorical and numerical features    
+    - Exploratory Analysis & Visualizations    
+    - Gender Distribution: Countplot showing more female students than male    
+    - Parent Education vs Scores: Heatmap showing higher parental education correlates with better student scores    
+    - Outlier Detection: Boxplots for Math, Reading, and Writing scores    
+    - Ethnic Group Distribution: Pie chart and countplot showing percentage breakdown across groups    
 
 📈 Key Insights
 - Gender: Female students slightly outnumber male students.
@@ -25,12 +25,11 @@ The analysis uses Python (Pandas, NumPy, Matplotlib, Seaborn) to clean, explore,
 - Ethnic Groups: Group C has the largest representation (~32%), followed by Group D and Group B.
 
 📂 Project Structure
-Students_Result_Analysis-Project/
-│── Student_Score_Analysis.ipynb   # Jupyter Notebook with full analysis
-│── Student_Score_Analysis.pdf     # Exported PDF version of notebook
-│── student_scores.csv             # Dataset
-│── README.md                      # Project documentation
 
+Students_Result_Analysis-Project/    
+│── Student_Score_Analysis.ipynb   
+│── student_scores.csv            
+│── README.md                  
 
 
 🚀 Technologies Used
